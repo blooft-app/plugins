@@ -1,5 +1,5 @@
 name: New Theme
-description: Submit a new plugin or update the CSS for an existing plugin
+about: Submit a new plugin or update the CSS for an existing plugin
 
 labels: new-theme
 
@@ -13,21 +13,15 @@ body:
     attributes:
       label: Licensing & Certification
       options:
-        - label: "I certify that I am releasing the CSS under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en) license."
-          value: "cc0_license"
-        - label: "I certify that the CSS provided actually works and is tested."
-          value: "css_works"
-        - label: "I understand that the information provided, including the CSS, may be edited at any time without notice by a maintainer."
-          value: "editable"
-    validation:
-      required: true
+        - "I certify that I am releasing the CSS under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en) license."
+        - "I certify that the CSS provided actually works and is tested."
+        - "I understand that the information provided, including the CSS, may be edited at any time without notice by a maintainer."
 
   - type: input
     attributes:
       label: "Your Name"
       description: "Please enter your name."
       placeholder: "Your name which will appear publicly"
-    validation:
       required: true
 
   - type: input
@@ -35,15 +29,13 @@ body:
       label: "Your GitHub URL"
       description: "Please provide the URL to your GitHub profile which will be linked inside the item."
       placeholder: "https://github.com/username"
-    validation:
       required: true
 
   - type: input
     attributes:
       label: "Item Name"
-      description: "Give your item a name."
+      description: "Give your item a name"
       placeholder: "Item Name"
-    validation:
       required: true
 
   - type: input
@@ -51,7 +43,6 @@ body:
       label: "CSS Data URL"
       description: "Please provide your CSS as a Data URL."
       placeholder: "data:text/css;base64,...."
-    validation:
       required: true
 
   - type: markdown
