@@ -11,37 +11,37 @@ body:
     attributes:
       label: Licensing & Certification
       options:
-        - "I certify that I am releasing the CSS under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en) license."
-        - "I certify that the CSS provided actually works and is tested."
-        - "I understand that the information provided, including the CSS, may be edited at any time without notice by a maintainer."
+        - label: "I certify that I am releasing the CSS under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en) license."
+        - label: "I certify that the CSS provided actually works and is tested."
+        - label: "I understand that the information provided, including the CSS, may be edited at any time without notice by a maintainer."
 
   - type: input
     attributes:
       label: "Your Name"
       description: "Please enter your name."
       placeholder: "Your name which will appear publicly"
-    required: true
+    validation: '^.+$'  # This ensures that the field is not empty.
 
   - type: input
     attributes:
       label: "Your GitHub URL"
       description: "Please provide the URL to your GitHub profile which will be linked inside the item."
       placeholder: "https://github.com/username"
-    required: true
+    validation: '^https://github.com/.*$'  # Ensures a valid GitHub URL.
 
   - type: input
     attributes:
       label: "Item Name"
-      description: "Give your item a name"
+      description: "Give your item a name."
       placeholder: "Item Name"
-    required: true
+    validation: '^.+$'  # Ensures the item name is not empty.
 
   - type: input
     attributes:
       label: "CSS Data URL"
       description: "Please provide your CSS as a Data URL."
-      placeholder: "data:text/css;base64,...."
-    required: true
+      placeholder: "data:text/css;base64,..."
+    validation: '^data:text/css;base64,.+'  # Ensures the CSS data URL is provided.
 
   - type: markdown
     attributes:
