@@ -1,0 +1,53 @@
+name: New Theme
+about: Submit a new plugin or update the CSS for an existing plugin
+
+labels: new-theme
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please submit your plugin CSS and certify that it meets the following requirements.
+
+  - type: checkboxes
+    attributes:
+      label: Licensing & Certification
+      required: true
+      options:
+        - "I certify that I am releasing the CSS under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en) license."
+        - "I certify that the CSS provided actually works and is tested."
+        - "I understand that the information provided, including the CSS, may be edited at any time without notice by a maintainer."
+
+  - type: input
+    required: true
+    attributes:
+      label: "Your Name"
+      description: "Please enter your name."
+      placeholder: "Your name which will appear publicly"
+
+  - type: input
+    attributes:
+      required: true
+      label: "Your GitHub URL"
+      description: "Please provide the URL to your GitHub profile which will be linked inside the item."
+      placeholder: "https://github.com/username"
+
+  
+  - type: input
+    attributes:
+      label: "Item Name"
+      required: true
+      description: "Give your item a name"
+      placeholder: "Item Name"
+
+  - type: input
+    attributes:
+      label: "CSS Data URL"
+      required: true
+      description: "Please provide your CSS as a Data URL."
+      placeholder: "data:text/css;base64,...."
+      
+  - type: markdown
+    attributes:
+      value: |
+        If your theme follows the rules, we'll take a look at it and file a PR to merge it in. Eventually your theme will be publicly available for anybody with Flowtide to install.
