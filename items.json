@@ -6,7 +6,7 @@
       "name": "George",
       "url": "https://github.com/georg-stone"
     },
-    "description": "It doesn't get more minimal than this. If you need to go back to the default page, just uninstall the plugin.",
+    "description": "It doesn't get more minimal than this.\nIf you need to go back to the default page, just uninstall the plugin. If you can't do that (e.g. internet reasons) try uninstalling Flowtide and reinstalling. This should clear your installed plugins :)",
     "url": "data:text/css;base64,Ym9keSB7CiAgb3BhY2l0eTogMDsKICBkaXNwbGF5OiBub25lOwp9Cg=="
   }
 }
