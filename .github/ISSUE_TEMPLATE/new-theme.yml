@@ -1,6 +1,4 @@
 name: New Theme
-about: Submit a new plugin or update the CSS for an existing plugin
-
 labels: new-theme
 
 body:
@@ -22,28 +20,28 @@ body:
       label: "Your Name"
       description: "Please enter your name."
       placeholder: "Your name which will appear publicly"
-      required: true
+    required: true
 
   - type: input
     attributes:
       label: "Your GitHub URL"
       description: "Please provide the URL to your GitHub profile which will be linked inside the item."
       placeholder: "https://github.com/username"
-      required: true
+    required: true
 
   - type: input
     attributes:
       label: "Item Name"
       description: "Give your item a name"
       placeholder: "Item Name"
-      required: true
+    required: true
 
   - type: input
     attributes:
       label: "CSS Data URL"
       description: "Please provide your CSS as a Data URL."
       placeholder: "data:text/css;base64,...."
-      required: true
+    required: true
 
   - type: markdown
     attributes:
