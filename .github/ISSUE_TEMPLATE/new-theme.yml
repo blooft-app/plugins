@@ -20,28 +20,24 @@ body:
       label: "Your Name"
       description: "Please enter your name."
       placeholder: "Your name which will appear publicly"
-    validation: '^.+$'  # This ensures that the field is not empty.
 
   - type: input
     attributes:
       label: "Your GitHub URL"
       description: "Please provide the URL to your GitHub profile which will be linked inside the item."
       placeholder: "https://github.com/username"
-    validation: '^https://github.com/.*$'  # Ensures a valid GitHub URL.
 
   - type: input
     attributes:
       label: "Item Name"
       description: "Give your item a name."
       placeholder: "Item Name"
-    validation: '^.+$'  # Ensures the item name is not empty.
 
   - type: input
     attributes:
       label: "CSS Data URL"
       description: "Please provide your CSS as a Data URL."
       placeholder: "data:text/css;base64,..."
-    validation: '^data:text/css;base64,.+'  # Ensures the CSS data URL is provided.
 
   - type: markdown
     attributes:
