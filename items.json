@@ -10,5 +10,15 @@
     "url": [
       "data:text/css;base64,Ym9keSB7CiAgb3BhY2l0eTogMDsKICBkaXNwbGF5OiBub25lOwp9Cg=="
     ]
+  },
+  "hide-vignette": {
+    "title": "Hide Vignette Effect",
+    "shortDescription": "Hide the vignette effect.",
+    "author": {
+      "name": "George",
+      "url": "https://github.com/georg-stone"
+    },
+    "description": "Removes the vignette effect. Note: This may reduce color contrast, causing white text on buttons to be invisible on white backgrounds.",
+    "url": ["data:text/css;base64,YmFja2dyb3VuZC1jb250YWluZXIgeyAtd2Via2l0LWJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDsKICAtbW96LWJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDsKICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7fQ=="]
   }
 }
