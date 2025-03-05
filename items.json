@@ -1,0 +1,26 @@
+{
+  "blank-page": {
+    "title": "Blank Page",
+    "shortDescription": "It doesn't get more minimal than this.",
+    "author": {
+      "name": "George",
+      "url": "https://github.com/georg-stone"
+    },
+    "description": "It doesn't get more minimal than this.\nIf you need to go back to the default page, just uninstall the plugin. If you can't do that (e.g. internet reasons) try uninstalling Blooft and reinstalling. This should clear your installed plugins :)",
+    "url": [
+      "data:text/css;base64,Ym9keSB7CiAgb3BhY2l0eTogMDsKICBkaXNwbGF5OiBub25lOwp9Cg=="
+    ]
+  },
+  "hide-vignette": {
+    "title": "Hide Vignette Effect",
+    "shortDescription": "Hide the vignette effect.",
+    "author": {
+      "name": "George",
+      "url": "https://github.com/georg-stone"
+    },
+    "description": "Removes the vignette effect. Note: This may reduce color contrast, causing white text on buttons to be invisible on white backgrounds.",
+    "url": [
+      "data:text/css;base64,I2JhY2tncm91bmQtY29udGFpbmVyIHsgLXdlYmtpdC1ib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7IAogIC1tb3otYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50OyAKICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7fQ=="
+    ]
+  }
+}
